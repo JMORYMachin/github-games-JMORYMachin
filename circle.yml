@@ -5,3 +5,8 @@ machine:
 test:
   post:
     - ruby tests/test_verifyurl.rb
+    - ruby test_differentcolors.rb	
+    - ruby test_speeddecrement.rb	
+    - ruby test_speedmax.rb	
+    - ruby test_speedstart.rb	
+    - ruby test_verifyurl.rb
